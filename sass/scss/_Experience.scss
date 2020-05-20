@@ -1,0 +1,117 @@
+.Experience{
+   
+    .Experience-barre{
+        margin-top: 79px;
+        padding-top: 500px;
+        margin-left: 587px;
+        background-image: url(../../image/Shape\ 10.png);
+        background-repeat: no-repeat;
+    }
+    .Experience-text-center-droite{
+        position: relative;
+        left: 53px;
+        bottom: 131px;
+    }
+    .Experience-text-center-gauche{
+        position: relative;
+        left: 10px;
+        bottom: 131px;
+    }
+    .Experience-bulle{
+
+        .Experience-poste{
+            margin: 0px;
+            font-size: 22px;
+            color: #ffffff;
+            font-family: "Raleway";
+        }
+        .Experience-societe{
+            font-size: 16px;
+            color: #ffffff;
+            font-family: "Raleway";
+        }
+        .Experience-date{
+            font-size: 18px;
+            color: #fb6470;
+            font-family: "Raleway";
+        }
+        .Experience-savoir-plus{
+            font-size: 20px;
+            color: #ffffff;
+            font-family: "Raleway";
+ 
+            a{
+                color: #ffffff;
+                text-decoration: none ;
+            }
+
+        }
+
+
+    }
+    .Experience-bulle-droite{
+        display: flex;
+        justify-content: flex-end;
+        height: 201px;
+    }
+    .Experience-Parcour{
+        display: flex;
+        justify-content: center;
+
+    }
+    .Experience-title{
+        
+        h2{
+            padding-top: 58px;
+            font-size: 32px;
+            color: #3e3e3e;
+            font-family: "Raleway";
+            text-decoration: underline #fb6470;
+            text-decoration-thickness: 0.1em;
+            text-decoration-thickness: 3px;
+        }
+    }
+    .btn {
+        background-image: url(../../image/Ellipse\ 4\ copy\ 5.png);
+    }
+    .Experience-position{
+
+    margin-top: -490px;
+        .Experience-cercle-position{
+            display: flex;
+            flex-direction: row;
+        }
+        .Experience-cercle-position-left{
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: 70px;
+
+            .Experience-cercle{
+                margin-top: 93px;
+            }
+        }
+        .Experience-cercle{
+            background-image: url(../../image/Ellipse\ 4\ copy.png);
+            background-repeat: no-repeat;
+
+            .Experience-cercle-deux{
+                padding: 12px;
+            }
+        }
+    }
+    .Experience-button{
+        margin-right: 5px;
+        margin-top: 57px;
+        padding-bottom: 85px;
+    }
+    .Experience-centrer{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
+@media screen and (max-width: 1208px) {
+    .Experience{
+        display: none;
+    }
+  }

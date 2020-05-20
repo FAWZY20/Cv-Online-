@@ -1,0 +1,58 @@
+.Contact-formulaire{
+    .Contact-title{
+        h2{ 
+         font-size: 22px;
+        color: #3e3e3e;
+        font-family: "Raleway"; 
+        }
+    }
+    .Contact-formulaire-position{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+
+        .form-Message{
+            margin-left: 28px;;
+        }
+    }
+    .btn{
+        border: none;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Raleway";
+        background-color: #fb6470;
+        padding: 10px;
+    }
+}
+
+.contact-centrer{
+    padding-top: 119px;
+}
+.Contact-information{
+    .Contact-info{
+        display: flex;
+        margin-bottom: 20px;
+
+        .Contact-icon{
+            display: flex;
+            align-items: center;
+        }
+
+        .Contact-info-text{
+            padding-left: 30px;
+
+            h2{
+                font-size: 22px;
+                color: #3e3e3e;
+                font-family: "Raleway";
+            }
+            .text{
+                font-size: 16px;
+                color: #3e3e3e;
+                font-family: "Raleway";
+            }
+        }
+
+    }
+
+}

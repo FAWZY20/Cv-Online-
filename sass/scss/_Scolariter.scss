@@ -1,0 +1,117 @@
+.Scolariter{
+   
+    .Scolariter-barre{
+        margin-top: 79px;
+        padding-top: 500px;
+        margin-left: 587px;
+        background-image: url(../../image/Shape\ 10.png);
+        background-repeat: no-repeat;
+    }
+    .Scolariter-text-center-droite{
+        position: relative;
+        left: 53px;
+        bottom: 131px;
+    }
+    .Scolariter-text-center-gauche{
+        position: relative;
+        left: 10px;
+        bottom: 131px;
+    }
+    .Scolariter-bulle{
+
+        .Scolariter-poste{
+            margin: 0px;
+            font-size: 22px;
+            color: #ffffff;
+            font-family: "Raleway";
+        }
+        .Scolariter-societe{
+            font-size: 16px;
+            color: #ffffff;
+            font-family: "Raleway";
+        }
+        .Scolariter-date{
+            font-size: 18px;
+            color: #fb6470;
+            font-family: "Raleway";
+        }
+        .Scolariter-savoir-plus{
+            font-size: 20px;
+            color: #ffffff;
+            font-family: "Raleway";
+ 
+            a{
+                color: #ffffff;
+                text-decoration: none ;
+            }
+
+        }
+
+
+    }
+    .Scolariter-bulle-droite{
+        display: flex;
+        justify-content: flex-end;
+        height: 201px;
+    }
+    .Scolariter-Parcour{
+        display: flex;
+        justify-content: center;
+
+    }
+    .Scolariter-title{
+        
+        h2{
+            padding-top: 58px;
+            font-size: 32px;
+            color: #3e3e3e;
+            font-family: "Raleway";
+            text-decoration: underline #fb6470;
+            text-decoration-thickness: 0.1em;
+            text-decoration-thickness: 3px;
+        }
+    }
+    .btn {
+        background-image: url(../../image/Ellipse\ 4\ copy\ 5.png);
+    }
+    .Scolariter-position{
+
+    margin-top: -490px;
+        .Scolariter-cercle-position{
+            display: flex;
+            flex-direction: row;
+        }
+        .Scolariter-cercle-position-left{
+            display: flex;
+            flex-direction: row-reverse;
+            margin-left: 70px;
+
+            .Scolariter-cercle{
+                margin-top: 93px;
+            }
+        }
+        .Scolariter-cercle{
+            background-image: url(../../image/Ellipse\ 4\ copy.png);
+            background-repeat: no-repeat;
+
+            .Scolariter-cercle-deux{
+                padding: 12px;
+            }
+        }
+    }
+    .Scolariter-button{
+        margin-right: 5px;
+        margin-top: 57px;
+        padding-bottom: 85px;
+    }
+    .Scolariter-centrer{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
+@media screen and (max-width: 1208px) {
+    .Scolariter{
+        display: none;
+    }
+}

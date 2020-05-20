@@ -1,0 +1,41 @@
+.Header-background{  
+    background-color: #1a1819;
+}
+.Header-Menu{
+    padding-top: 20px;
+    
+    .uk-button-default{
+        border:0px;
+        color: #fb6470 ;
+    }
+}
+.Header-title{
+    padding-top: 293px;
+    padding-bottom: 293px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .Header-Name{
+        font-size: 48px;
+        color: #ffffff;
+        font-family: "Raleway";
+        border-top: 1px solid #fb6470;
+        border-bottom: 1px solid #fb6470;
+    }
+    .Header-subtitle{
+        font-size: 18px;
+        color: #ffffff;
+        font-family: "Raleway";
+        text-align: center;
+    }
+    .btn{
+        border-radius: 5px;
+        border: #fb6470;
+        background-color: #fb6470;
+        font-size: 22px;
+        color: #ffffff;
+        font-family: "Raleway";
+
+    }
+}

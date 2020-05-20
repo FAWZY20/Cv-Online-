@@ -1,0 +1,60 @@
+    .bloc{
+   
+     li{
+        display: flex;
+        flex-direction: column;
+
+        .Filtre-bulle{
+
+            display: flex;
+            flex-direction: initial;
+
+            p{
+                text-align: initial;
+                padding-left: 50px;
+            }
+
+            .Filtre-poste{
+                margin: 0px;
+                font-size: 22px;
+                color: #000000;
+                font-family: "Raleway";
+            }
+            .Filtre-societe{
+                font-size: 16px;
+                color: #000000;
+                font-family: "Raleway";
+            }
+            .Filtre-date{
+                font-size: 18px;
+                color: #fb6470;
+                font-family: "Raleway";
+            }
+            .Filtre-savoir-plus{
+                font-size: 20px;
+                color: #000000;
+                font-family: "Raleway";
+     
+                a{
+                    color: #000000;
+                    text-decoration: none ;
+                }
+            }
+    
+    
+        }
+
+    }
+
+}
+@media screen and (min-width: 1208px)  {
+    .bloc {
+      display:none; 
+    }
+  }
+@media screen and (max-width: 500px) {
+    .Filtre-bulle{
+    display: flex;
+    flex-direction: column;
+    }
+}
